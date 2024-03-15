@@ -7,7 +7,6 @@ import { FeaturedArticalComponent } from './featured-artical/featured-artical.co
 import { CategoriesComponent } from './categories/categories.component';
 
 
-
 @NgModule({
   declarations: [
     ArticleListComponent,
@@ -18,6 +17,9 @@ import { CategoriesComponent } from './categories/categories.component';
   ],
   imports: [
     CommonModule
+  ],
+  exports:[
+    LatestArticalComponent
   ]
 })
 export class ArticlesModule { }
